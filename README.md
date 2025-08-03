@@ -35,14 +35,6 @@ The system uses a user-movie ratings dataset (ratings.csv or similar).
 
 You can add your own dataset in the expected format (userId, movieId, rating).
 
-## Folder Structure
+## This is a Movie Recommendation System I developed using Python and machine learning techniques. It recommends similar movies to a user’s favorite movie using content-based filtering. I used the TF-IDF Vectorizer to convert movie overviews into numerical vectors and calculated similarity scores using cosine similarity. The system finds the closest match to the user's input using difflib, then ranks and displays the most relevant movie suggestions. The goal was to build a personalized and efficient recommendation engine, and I learned how NLP techniques like TF-IDF and similarity measures play a major role in such systems.
 
-movie-recommendation-system/
-│
-├── index.py         # Main script for recommendation
-├── requirements.txt # Python dependencies
-├── README.md        # Project overview and instructions
-└── data/            # (Optional) Folder for dataset files
-Edit
-python index.py
-Follow the prompts to get movie recommendations.
+
