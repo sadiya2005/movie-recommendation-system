@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-A simple Python-based Movie Recommendation System that suggests movies to users based on collaborative filtering with cosine similarity.
+A simple Python-based Movie Recommendation System that suggests movies to users based on content based filtering with cosine similarity and TF-IDF.
 
 ## Features
 
